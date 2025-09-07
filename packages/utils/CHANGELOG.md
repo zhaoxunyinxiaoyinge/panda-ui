@@ -1,5 +1,11 @@
 # @zhao/utils
 
+## 2.0.3
+
+### Patch Changes
+
+- 测试版本功能正常发布
+
 ## 2.0.2
 
 ### Patch Changes

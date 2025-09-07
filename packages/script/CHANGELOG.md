@@ -1,5 +1,11 @@
 # zpanda-ui
 
+## 2.0.1
+
+### Patch Changes
+
+- 测试版本功能正常发布
+
 ## 2.0.0
 
 ### Major Changes

@@ -1,5 +1,11 @@
 # @zhao/them-chlak
 
+## 3.0.1
+
+### Patch Changes
+
+- 测试版本功能正常发布
+
 ## 3.0.0
 
 ### Major Changes
