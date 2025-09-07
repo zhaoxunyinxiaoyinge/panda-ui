@@ -1,10 +1,13 @@
 {
-  "name": "zha-ui",
+  "name": "zpanda-ui",
   "version": "1.0.9",
   "main": "lib/index.cjs",
   "module": "es/zhao-ui.esm-bundler.js",
   "files": [
-    "dist"
+    "dist",
+    "es",
+    "lib",
+    "theme"
   ],
   "keywords": [
     "zha-ui",

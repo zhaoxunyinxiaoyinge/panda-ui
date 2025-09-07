@@ -1,5 +1,5 @@
 module.exports = {
-    title: "panda-ui",
+    title: "zpanda-ui",
     lastUpdated: true,
     titleTemplate: true ,
     base:"/panda-ui/",

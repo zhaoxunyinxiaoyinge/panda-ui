@@ -1,6 +1,6 @@
 {
   "name": "zha-ui",
-  "version": "1.0.56",
+  "version": "2.0.0",
    "private":true,
   "description": "vue组件库最新vue3开发",
   "main": "dist/zhao-ui/lib/index.js",
@@ -9,11 +9,11 @@
   "scripts": {
     "dev": "pnpm -C pay dev",
     "build": "npx gulp -f ./build/gulpfile.ts",
-    "doc": "pnpm dev  docs",
+    "doc": "pnpm --filter ./docs run dev",
     "build:docs": "pnpm --filter ./docs run builds",
     "publish": "npx gulp -f  ./packages/script/gulpfile.ts",
-     "version-packages": "changeset version",
-    "publish-packages": "changeset publish",  
+    "version-packages": "changeset version",
+    "publish-packages": "changeset publish ",  
     "test": "vitest",
     "build:types": "npx vue-tsc --declaration --emitDeclarationOnly",
     "build:dist":"pnpm run build && pnpm run publish && pnpm run build:docs ",
