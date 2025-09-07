@@ -5,13 +5,11 @@ import cleanCss from "gulp-clean-css";
 import path from "path";
 import { projectPath } from "./../../build/utils/path";
 
-import {src,series,dest,parallel} from "gulp"
-console.log("打包样式")
-  
+import {src,series,dest,parallel} from "gulp" 
 const complie = () => {
     const sass = gulpSass(dartSass);
     
-    return src(path.resolve(__dirname, "./src/*.{css,scss}")).pipe(sass.sync()).pipe(autoprefixer()).pipe(cleanCss()).
+    return src(path.resolve(__dirname, "./src/css/*.{css,scss}")).pipe(sass.sync()).pipe(autoprefixer()).pipe(cleanCss()).
         pipe(dest("./dist/css"))
     }
 

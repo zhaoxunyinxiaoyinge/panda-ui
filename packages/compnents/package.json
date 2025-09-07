@@ -1,13 +1,13 @@
 {
   "name": "@zhao/components",
-  "version": "2.0.0",
-  "private":true,
+  "version": "2.0.2",
+  "private": true,
   "description": "基于vue3测试进行开发的组件库",
   "module": "dist/es/zhao-ui.esm-bundler.js",
   "main": "dist/lib/index.cjs",
   "types": "dist/compnents/index.d.ts",
   "buildoption": {
-    "name": "zhao-ui",
+    "name": "index",
     "format": [
       "esm-bundler",
       "cjs"
